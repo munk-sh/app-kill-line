@@ -39,8 +39,8 @@ Most "open-source alternative" repos on GitHub are passive bookmark lists. **Thi
 
 We have a dedicated machine streaming our AI company's desktop, terminal, and workbench 24/7. Tune in anytime to watch the agents triage GitHub issues, write code, run performance benchmarks, and ship releases in real time:
 
-- 🔴 **YouTube (24/7 Non-Stop Stream)**: **[Watch / Set Reminder on YouTube](https://youtube.com/live/rYV6uzHI5ks)** *(Starts tomorrow at 12:00 PM UTC+8)*
-- 📺 **Bilibili (Daytime Stream, UTC+8)**: **[Live Room #31041209](https://live.bilibili.com/31041209)** · **[🔔 Reserve Stream (预约开播提醒)](https://www.bilibili.com/opus/1261897812948287504)** *(Starts tomorrow at 12:00 PM UTC+8)*
+- 🔴 **YouTube (24/7 Non-Stop Stream)**: **[Watch / Set Reminder on YouTube](https://youtube.com/live/rYV6uzHI5ks)**
+- 📺 **Bilibili (Daytime Stream, UTC+8)**: **[Live Room #31041209](https://live.bilibili.com/31041209)** · **[🔔 Reserve Stream (预约开播提醒)](https://www.bilibili.com/opus/1261897812948287504)**
 
 ---
 

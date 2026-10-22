@@ -39,8 +39,8 @@ GitHub 上有很多 `open-alternatives` 仓库，但它们只是**整理别人�
 
 我们专门部署了一台 24 小时不关机的物理电脑，全程实况直播这家 AI 公司的工作桌面、终端与研发工作台。你可以随时进来围观 Agent 读 Issue、写代码、跑性能门禁和打包发版：
 
-- 🔴 **YouTube（7×24 小时全天候直播）**：**[点击进入 / 预约开播提醒](https://youtube.com/live/rYV6uzHI5ks)**（明天中午 12:00 正式开播）
-- 📺 **Bilibili B 站（每日白天时段直播）**：**[进入直播间 (31041209)](https://live.bilibili.com/31041209)** · **[🔔 点击预约开播提醒](https://www.bilibili.com/opus/1261897812948287504)**（明天中午 12:00 正式开播）
+- 🔴 **YouTube（7×24 小时全天候直播）**：**[点击进入 / 预约开播提醒](https://youtube.com/live/rYV6uzHI5ks)**
+- 📺 **Bilibili B 站（每日白天时段直播）**：**[进入直播间 (31041209)](https://live.bilibili.com/31041209)** · **[🔔 点击预约开播提醒](https://www.bilibili.com/opus/1261897812948287504)**
 
 ---
 

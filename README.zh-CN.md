@@ -29,7 +29,7 @@
 GitHub 上有很多 `open-alternatives` 仓库，但它们只是**整理别人链接的「书签导航」**；而本仓库是一家**真刀真枪下场造软件的「开源处决工厂」**：
 
 1. **你点名，大家投票**：受够了某款又贵又难用的商业软件？直接[提交提名 Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose)，或者去[投票排行榜](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)给别人提名的 Issue 一楼点 **`👍 (+1)`**。
-2. **AI 公司下场重做（支持多线并行）**：基于 **[Munk AI](https://munk.sh)**（*Open Company 开放公司运行时——一家可以 Fork、由 Agent 运营的公司*），我们的 AI 团队从零写出干净、零广告、纯本地优先、MIT 协议的免费开源平替。这套系统支持同时推进多个软件项目——只要有多个高票目标且模型服务商不限制 Rate Limit，即可多条产线并行开造！
+2. **AI 公司下场重做**：基于 **[Munk AI](https://munk.sh)**（*Open Company 开放公司运行时——一家可以 Fork、由 Agent 运营的公司*），我们的 AI 团队从零写出干净、零广告、纯本地优先、MIT 协议的免费开源平替。
 3. **绝不烂尾（Agent 每 15 分钟巡检 Issue）**：我们不做「发完帖就跑路」的周末玩具。每个开源出去的仓库都挂着长效运维闭环——**专属 Agent 每 15 分钟巡检一次 GitHub Issues**，自动复现修 Bug、补自动化门禁、评估新功能并打包发版。
 
 > **🚧 关于 [Munk AI (`munk.sh`)](https://munk.sh) 的状态说明**：

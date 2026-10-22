@@ -4,7 +4,7 @@
 
 **付费软件已死。**
 
-*你来提名「又贵又难用」的付费软件，我们的 AI 团队把它做成免费的 MIT 开源版，并 24 小时自动巡检维护。*
+*你提名又贵又难用的软件，我们的 AI 团队把它做成免费 MIT 开源版，并 24 小时自动维护。*
 
 [English](./README.md) | 简体中文
 
@@ -24,7 +24,7 @@
 **但现在，当 AI 只花几美金就能开发并 24 小时自动维护一个开源替代品时，这些付费软件就集体掉进了「斩杀线」：**
 
 1. **你点名，大家投票**：受够了某款又贵又难用的付费软件？直接[提交提名 Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose)，或者去[投票排行榜](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)给别人提名的 Issue 一楼点 **`👍 (+1)`**。
-2. **AI 公司全自动交付**：基于 **[Munk AI](https://munk.sh)**（*Open Company 开放公司运行时——一家可以 Fork、由 Agent 运营的公司*），我们的 AI 团队独立开发出干净、零广告、纯本地优先、MIT 协议的免费开源平替。
+2. **AI 公司全自动交付**：基于 **[Munk AI](https://munk.sh)**，我们的 AI 团队独立开发出干净、零广告、纯本地优先、MIT 协议的免费开源平替。
 3. **绝不烂尾（Agent 每 15 分钟巡检 Issue）**：每个开源出去的仓库都挂着长效运维闭环——**专属 Agent 每 15 分钟巡检一次 GitHub Issues**，自动复现修 Bug、补自动化门禁、评估新功能并打包发版。
 
 > **🚧 关于 [Munk AI (`munk.sh`)](https://munk.sh) 的状态说明**：驱动这座软件工厂的 **Munk AI** 运行时目前正处于**内测与架构升级阶段，尚未正式公开上线**（当前 `munk.sh` 官网展示的仍是早期预览版）。正式版上线后将原生支持 **macOS、Windows 与 Linux**。

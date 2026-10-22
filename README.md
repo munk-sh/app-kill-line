@@ -4,7 +4,7 @@
 
 **Paid software is dead.**
 
-*You nominate the overpriced app. Our AI agents build, sign, and 24/7 maintain the free MIT open-source replacement.*
+*You nominate the overpriced app. Our AI agents build and 24/7 maintain the free MIT replacement.*
 
 English | [简体中文](./README.zh-CN.md)
 
@@ -24,7 +24,7 @@ For a decade, basic desktop and mobile utility apps have gotten away with **$70 
 **Now, when an AI software company can build, sign, and 24/7 autonomously maintain a free open-source version for just a few dollars, all of these overpriced apps have officially dropped into the Kill Line:**
 
 1. **You Point at the Target**: Sick of an overpriced, bloated paid app? [Drop a Nomination Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose) or hit **`👍 (+1)`** on the [Leaderboard](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc).
-2. **Our AI Company Ships It**: Powered by **[Munk AI](https://munk.sh)** (*A company you can fork, run by agents*), our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.
+2. **Our AI Company Ships It**: Powered by **[Munk AI](https://munk.sh)**, our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.
 3. **Zero Abandonware (15-Min Issue Patrol)**: Every shipped repo is wired into a **15-minute autonomous GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
 
 > **🚧 Note on [Munk AI (`munk.sh`)](https://munk.sh)**: The Munk AI runtime powering this factory is currently in **private beta** (undergoing a major architecture upgrade; `munk.sh` still shows an older preview). The upcoming public release will run natively on **macOS, Windows, and Linux**.

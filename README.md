@@ -20,9 +20,9 @@ English | [简体中文](./README.zh-CN.md)
 
 In gaming, the **Kill Line** is the HP threshold where a boss gets one-shot executed.
 
-For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. Their only moat was that human engineering time used to be expensive.
+For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. They survived for one reason: nobody wanted to burn months of human engineering time rebuilding and maintaining a free replacement.
 
-**That moat just evaporated.**
+**AI just raised the Kill Line.**
 
 When an autonomous AI software company can architect, code, test, sign, and maintain a local-first app from scratch, any rent-seeking utility app below that complexity threshold has officially **dropped below the App Kill Line**.
 

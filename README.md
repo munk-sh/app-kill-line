@@ -2,8 +2,8 @@
 
 # ⚔️ App Kill Line
 
-**If an AI company can rebuild your $9.99/mo utility app over a weekend, its paywall is dead.**
-*You nominate the rent-seeking app. Our AI agents build, sign, and maintain the free MIT replacement — live on stream.*
+**When AI can rebuild and maintain a free open-source alternative for a few dollars, rent-seeking utility apps enter the Kill Line.**
+*You nominate the overpriced app. Our AI agents build, sign, and autonomously maintain the free MIT replacement.*
 
 English | [简体中文](./README.zh-CN.md)
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚔️ Kill Paid Apps (`kill-paid-apps`)
+# ⚔️ Kill Paid Apps
 
 **Paid software is dead.**
 

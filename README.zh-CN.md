@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚔️ 干掉付费软件 (`kill-paid-apps`)
+# ⚔️ 干掉付费软件
 
 **付费软件已死，AI 进入猎杀模式。**
 

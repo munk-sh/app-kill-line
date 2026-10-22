@@ -27,7 +27,7 @@ For a decade, basic desktop and mobile utility apps have gotten away with **$70 
 2. **AI Agents Build It**: Powered by **[Munk AI](https://munk.sh)**, our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.
 3. **15-Min Autonomous Issue Patrol**: Every shipped repo is wired into a **15-minute GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
 
-> **🚧 Note on [Munk AI (`munk.sh`)](https://munk.sh)**: The Munk AI runtime powering this initiative is currently in **private beta** (`munk.sh` currently shows an earlier preview). The upcoming public release will run natively on **macOS, Windows, and Linux**.
+> *Note: [Munk AI](https://munk.sh) is currently in private beta (macOS, Windows & Linux release coming soon).*
 
 ---
 

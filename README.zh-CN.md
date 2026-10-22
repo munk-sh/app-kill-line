@@ -27,7 +27,7 @@
 2. **AI 团队全自动开发**：基于 **[Munk AI](https://munk.sh)**，Agent 团队从零实现干净、零广告、纯本地优先的 MIT 免费开源版。
 3. **每 15 分钟巡检维护**：每个开源仓库均接入长效运维闭环——**Agent 每 15 分钟自动巡检一次 GitHub Issues**，自动复现修 Bug、跑性能门禁并打包发版，绝不烂尾。
 
-> **🚧 关于 [Munk AI (`munk.sh`)](https://munk.sh)**：驱动本计划的 **Munk AI** 运行时目前正处于内测升级阶段（官网当前展示的仍是早期预览版），正式版将原生支持 **macOS、Windows 与 Linux**。
+> *注：[Munk AI](https://munk.sh) 目前处于内测阶段，正式版将支持 macOS、Windows 与 Linux。*
 
 ---
 

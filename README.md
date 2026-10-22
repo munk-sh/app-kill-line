@@ -29,7 +29,7 @@ When an autonomous AI software company can architect, code, test, sign, and main
 Most "open-source alternative" repos on GitHub are passive bookmark lists. **This repo is an active execution factory:**
 
 1. **You Point at the Target**: Sick of an overpriced, bloated utility app? [Drop a Nomination Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose) or hit **`👍 (+1)`** on the [Leaderboard](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc).
-2. **Our AI Company Ships It**: Powered by **[Munk AI](https://munk.sh)** (*A company you can fork, run by agents*), our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.
+2. **Our AI Company Ships It (Multi-Track Parallel)**: Powered by **[Munk AI](https://munk.sh)** (*A company you can fork, run by agents*), our AI agents build fast, local-first, MIT-licensed open-source replacements from the ground up. The system supports building multiple software products in parallel — if multiple targets get high votes, we spin up parallel tracks simultaneously (as long as LLM providers don't rate-limit us!).
 3. **Zero Abandonware (15-Min Issue Patrol)**: We don't drop a weekend demo and vanish. Every shipped repo is wired into a **15-minute autonomous GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
 
 > **🚧 Note on [Munk AI (`munk.sh`)](https://munk.sh)**:

@@ -1,0 +1,74 @@
+name: "🎯 Nominate a Paid App / 提名付费 App 进斩杀榜"
+description: "Nominate an overpriced, bloated, or subscription-locked app for our AI Company to replace with a free MIT open-source alternative. / 提名一款「又菜又爱收钱」的付费软件，交由 AI 公司重做成免费开源版。"
+title: "[Kill-Line] <Paid App Name> — <What it does in one line>"
+labels: ["nomination"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        👋 **Check the Leaderboard first! / 提交前请先查重：**
+        Browse the **[👍 Live Kill List Leaderboard](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)** before opening a new issue. If your target is already listed, hit **`👍 (+1)`** on that issue's first post so votes aren't split!
+        请先查看 **[👍 斩杀榜实时排名](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)**！如果该软件已被提名，请直接去对应 Issue 一楼点 **`👍 (+1)`** 累加票数，切勿重复建帖分流选票。
+
+  - type: input
+    id: target_app
+    attributes:
+      label: "1. Target App or Category / 目标付费软件或品类名称"
+      description: "Which overpriced or bloated utility has dropped below the AI Kill Line? / 你想把哪款付费或臃肿工具送进斩杀线？"
+      placeholder: "e.g., Screenshot & Annotator / Folder Compare / Offline Document Scanner"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "2. Target Platforms / 你最需要的运行平台"
+      description: "Select all platforms that matter for your daily workflow. / 可多选。"
+      multiple: true
+      options:
+        - "macOS (Desktop)"
+        - "Windows (Desktop)"
+        - "Linux (Desktop / CLI)"
+        - "iOS (Mobile)"
+        - "Android (Mobile)"
+        - "Web (Local-First / Offline PWA)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pain_points
+    attributes:
+      label: "3. The Paywall & Pain Points / 它是怎么收钱或恶心用户的？"
+      description: "How much does it charge, and what makes users angry? (e.g., $9.99/mo subscription for a local tool, forced cloud login, watermark hostage, Electron memory bloat, OS lock-in) / 写下它的价格与最让你忍无可忍的槽点："
+      placeholder: |
+        - Pricing: $70 license or $9.99/mo subscription
+        - Pain point 1: Pops up VIP ads right in the middle of my workflow
+        - Pain point 2: Forces cloud upload for documents that should stay 100% local
+    validations:
+      required: true
+
+  - type: textarea
+    id: core_mvp
+    attributes:
+      label: "4. The Core 20% Features for MVP / 首版必做的 20% 核心功能（解决 80% 痛点）"
+      description: "We build sharp, local-first tools first — not bloated kitchen sinks. What are the 3–5 must-have features that would make you uninstall the paid app today? / 列出最核心的 3～5 个功能点，只要做好这几点你就会立刻换用开源版："
+      placeholder: |
+        1. Fast side-by-side folder diff with streaming SHA-256 verification
+        2. 3-way text merge with conflict navigation
+        3. 100% offline local file IO with zero telemetry
+    validations:
+      required: true
+
+  - type: textarea
+    id: existing_alternatives
+    attributes:
+      label: "5. Why Existing Open-Source Tools Fall Short (Optional) / 现有开源替代品差在哪？（选填）"
+      description: "If open-source tools already exist in this space, why aren't people using them? / 如果市面上已有同类开源项目，为什么大家还是觉得不够顺手？"
+      placeholder: "e.g., WinMerge is Windows-only; Meld freezes or crashes on folders with >100k files."
+
+  - type: textarea
+    id: verification_evidence
+    attributes:
+      label: "6. Real-World Torture Test for Our AI Agents (Optional) / 留给 AI 的极限验收考题（选填）"
+      description: "Give our agents a concrete benchmark or edge case so we can wire it into an automated CI gate. / 给我们的 Agent 出道硬核验收题（性能指标、大文件样本或边界场景）："
+      placeholder: "e.g., Must compare two folders with 500,000+ files without EMFILE crashes and keep renderer RAM under 1.5 GB."

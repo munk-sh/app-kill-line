@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "📊 View App Kill Line Leaderboard (按 👍 票数查看斩杀榜排名)"
+    url: "https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc"
+    about: "Check existing nominations and vote with 👍 (+1) before opening a duplicate issue."
+  - name: "💬 OpenCompare Issues & Bug Reports (001 号战果问题反馈)"
+    url: "https://github.com/chaxiu/OpenCompare/issues"
+    about: "Report bugs or request features for OpenCompare (patrolled by our Agent every 15 minutes)."
+  - name: "🤖 About Munk AI Runtime (了解 Munk AI 开放公司运行时 · 内测中)"
+    url: "https://munk.sh"
+    about: "Munk AI is currently in private beta / refactoring. Official macOS/Windows/Linux release coming soon."

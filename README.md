@@ -3,6 +3,7 @@
 # ⚔️ App Kill Line
 
 **Paid software is dead.**
+
 *You nominate the overpriced app. Our AI agents build, sign, and 24/7 maintain the free MIT open-source replacement.*
 
 English | [简体中文](./README.zh-CN.md)

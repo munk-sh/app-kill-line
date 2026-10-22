@@ -21,70 +21,53 @@ English | [简体中文](./README.zh-CN.md)
 
 For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. They survived for one reason: nobody wanted to burn months of human engineering time building and maintaining a free replacement.
 
-**Now, when an AI software company can build, sign, and 24/7 autonomously maintain a free open-source version for just a few dollars, all of these overpriced apps have officially dropped into the Kill Line:**
+**Now, when an AI team can build, sign, and 24/7 autonomously maintain a free open-source replacement for just a few dollars, all of these overpriced apps have officially dropped into the Kill Line:**
 
-1. **You Point at the Target**: Sick of an overpriced, bloated paid app? [Drop a Nomination Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose) or hit **`👍 (+1)`** on the [Leaderboard](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc).
-2. **Our AI Company Ships It**: Powered by **[Munk AI](https://munk.sh)**, our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.
-3. **Zero Abandonware (15-Min Issue Patrol)**: Every shipped repo is wired into a **15-minute autonomous GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
+1. **You Nominate & Vote**: Hit **`👍 (+1)`** on the [Kill List Leaderboard](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc) or [submit a new Nomination Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose).
+2. **AI Agents Build It**: Powered by **[Munk AI](https://munk.sh)**, our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.
+3. **15-Min Autonomous Issue Patrol**: Every shipped repo is wired into a **15-minute GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
 
-> **🚧 Note on [Munk AI (`munk.sh`)](https://munk.sh)**: The Munk AI runtime powering this factory is currently in **private beta** (undergoing a major architecture upgrade; `munk.sh` still shows an older preview). The upcoming public release will run natively on **macOS, Windows, and Linux**.
+> **🚧 Note on [Munk AI (`munk.sh`)](https://munk.sh)**: The Munk AI runtime powering this initiative is currently in **private beta** (`munk.sh` currently shows an earlier preview). The upcoming public release will run natively on **macOS, Windows, and Linux**.
 
 ---
 
-## 🏆 Executed Targets (Shipped & Maintained)
+## 🏆 Shipped Replacements (Maintained 24/7)
 
-| # | Replaced Category & Target | Paywall vs. AI Cost | Our Open-Source Replacement | Platforms | Status & Benchmark |
+| # | Replaced Category & Target | Paywall vs. AI Cost | Free Open-Source Replacement | Platforms | Status & Benchmark |
 | :- | :--- | :--- | :--- | :--- | :--- |
-| **001** | **Pro Folder / File / 3-Way Merge Tool**<br>*(e.g., Beyond Compare Pro)* | Original: **$70/user** (~¥500)<br>⚡ **AI Build Cost: ~$2** | **[OpenCompare](https://github.com/chaxiu/OpenCompare)** | macOS · Windows · Linux · Web | ✅ **v0.2.5 Shipped** · [Get Installer](https://github.com/chaxiu/OpenCompare/releases)<br>🚀 *47 GB / 752k files compared in 9.3s*<br>🤖 *15-min Agent Issue Patrol Active* |
+| **001** | **Folder / File Diff & 3-Way Merge Tool**<br>*(vs. Beyond Compare Pro)* | Original: **$70/user** (~¥500)<br>⚡ **AI Total Cost: ~$2** | **[OpenCompare](https://github.com/chaxiu/OpenCompare)** | macOS · Windows · Linux · Web | ✅ **v0.2.5 Shipped** · [Get Installer](https://github.com/chaxiu/OpenCompare/releases)<br>🚀 *47 GB / 752k files compared in 9.3s*<br>🤖 *15-min Agent Issue Patrol Active* |
 
 ---
 
-## 🎯 The Kill List (Vote for Target #002!)
+## 🎯 The Kill List (Vote 👍 for Target #002)
 
-We hunt **local-first desktop & mobile utilities** first — apps that charge steep subscriptions, lock out basic features, or force cloud uploads for tasks that belong 100% on your local device.
+Click any target below and add a **`👍` (+1) reaction on the first post (Issue body)** to vote *(comments don't count toward GitHub sorting)* — or **[👉 Nominate a New Paid App](https://github.com/munk-sh/app-kill-line/issues/new/choose)**.
 
-👉 **[View the Live Kill List Leaderboard (Sorted by 👍 Reactions)](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)**
-
-| Tier | Target App Category (Click to Vote 👍) | Typical Paywall | Why Users Want It Replaced | Est. Time to Kill |
+| Tier | Target App Category (Click to Vote 👍) | Typical Paywall | Why Users Want It Replaced | Est. Time |
 | :--- | :--- | :--- | :--- | :--- |
-| 🟢 **Tier 1**<br>*(In Kill Range)* | **[#1 · macOS Screenshot & Scrolling Annotator](https://github.com/munk-sh/app-kill-line/issues/1)** | **$35** + **$19/yr** update paywall | macOS still lacks a fast, MS-Paint-simple drawing & screenshot annotation tool without annual renewal paywalls | ⚡ **3–5 Days** |
+| 🟢 **Tier 1**<br>*(In Kill Range)* | **[#1 · macOS Screenshot & Scrolling Annotator](https://github.com/munk-sh/app-kill-line/issues/1)** | **$35** + **$19/yr** renewal | macOS still lacks a fast, MS-Paint-simple drawing & screenshot annotation tool without annual renewal paywalls | ⚡ **3–5 Days** |
 | 🟢 **Tier 1**<br>*(In Kill Range)* | **[#2 · macOS / iOS Visual Clipboard Manager](https://github.com/munk-sh/app-kill-line/issues/2)** | **$29.99/yr** subscription | A local bottom-drawer visual clipboard history has zero business charging a $30/yr recurring subscription | ⚡ **3–5 Days** |
 | 🟢 **Tier 1**<br>*(In Kill Range)* | **[#3 · 100% Offline Document & ID Scanner](https://github.com/munk-sh/app-kill-line/issues/3)** | **$39.99–$59.99/yr** VIP | Document edge-detection & PDF export should run 100% offline — no watermarks, no forced cloud uploads | ⚡ **4–7 Days** |
 | 🟢 **Tier 1**<br>*(In Kill Range)* | **[#4 · Ad-Free GPS Run Timer & Calorie Tracker](https://github.com/munk-sh/app-kill-line/issues/4)** | **$49.99–$79.99/yr** VIP | Basic GPS run voice pacing & barcode calorie logging buried behind social feeds and mid-workout VIP popups | ⚡ **3–5 Days** |
-| 🟡 **Tier 2**<br>*(Approaching)* | **[#5 · Auto-Zoom Screen Recorder for Product Demos](https://github.com/munk-sh/app-kill-line/issues/5)** | **$29/mo** or **$108/yr**<br>*(killed one-time license)* | Auto zoom-on-click & smooth cursor recording forced into a $108/yr subscription after top OSS repo was archived | 🛠️ **5–7 Days** |
+| 🟡 **Tier 2**<br>*(Approaching)* | **[#5 · Auto-Zoom Screen Recorder for Product Demos](https://github.com/munk-sh/app-kill-line/issues/5)** | **$29/mo** or **$108/yr**<br>*(no one-time license)* | Auto zoom-on-click & smooth cursor recording forced into a $108/yr subscription after top OSS repo was archived | 🛠️ **5–7 Days** |
 | 🟡 **Tier 2**<br>*(Approaching)* | **[#6 · Cross-Platform Symbolic CAS & Graphing Calculator](https://github.com/munk-sh/app-kill-line/issues/6)** | **$19.99** (iOS-locked) | Classic symbolic math & graphing calculator locked to iOS; desktop & Android lack a modern offline equivalent | 🛠️ **~7 Days** |
 | 🟡 **Tier 2**<br>*(Approaching)* | **Native HTTP/HTTPS Proxy & Mobile Packet Inspector** | **$50–$69+** / license | Local MITM debugging, Map Local, and mobile QR cert setup without dated Java UI or paid tier limits | 🛠️ **7–10 Days** |
 | 🟡 **Tier 2**<br>*(Approaching)* | **Local-First Zero-Based Budgeting App** | **$59.99–$109/yr** | Personal expense & envelope budgeting apps doubled annual subscription prices while top OSS repo was archived | 🛠️ **7–10 Days** |
-| 🔴 **Tier 3**<br>*(Boss Tier)* | **System-Wide Network Rules / Dual-Pane File Manager / RAW Photo Studio** | **$48–$150+/yr** | Deep OS kernel/network extensions or decades of legacy power-user features — requires multi-phase campaign | 🏔️ **Multi-Week** |
+| 🔴 **Tier 3**<br>*(Boss Tier)* | **System-Wide Network Rules / Dual-Pane File Manager / RAW Studio** | **$48–$150+/yr** | Deep OS kernel/network extensions or decades of legacy power-user features — requires multi-phase campaign | 🏔️ **Multi-Week** |
 
 ---
 
-## 📺 Watch the Factory Live
+## 📺 Watch the AI Agents Live
 
-We stream our AI company's desktop, terminal, and workbench live so anyone can watch the agents triage GitHub issues, write code, run performance benchmarks, and ship releases in real time:
+We stream our AI team's desktop, terminal, and workbench live so anyone can watch the agents triage GitHub issues, write code, run benchmarks, and ship releases in real time:
 
 - 🔴 **YouTube**: **[youtube.com/@chriszhu5012/live](https://www.youtube.com/@chriszhu5012/live)**
 - 📺 **Bilibili**: **[live.bilibili.com/31041209](https://live.bilibili.com/31041209)**
 
 ---
 
-## 🗳️ How to Vote or Nominate
-
-### 1. Upvote a Target on the Leaderboard
-1. Open the **[Live Kill List Leaderboard](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)**.
-2. Click the **`👍` (+1) reaction** on the **first post (Issue body)** of the app you want us to execute next. *(Replying "+1" in comments does not affect GitHub's reaction sorting.)*
-
-### 2. Nominate a New Paid App
-1. Click **[New Issue → 🎯 Nominate a Paid App](https://github.com/munk-sh/app-kill-line/issues/new/choose)**.
-2. Tell us:
-   - **Which real paid app** is overcharging you and **what its paywall looks like**.
-   - **The core 20% features** that deliver 80% of your daily value (we ship sharp tools first, not bloatware).
-   - **Real-world test cases** our agents can wire into automated CI gates.
-
----
-
 ## 📄 License
 
-Every app built under the **App Kill Line** initiative is released under the **MIT License**. Free forever, local-first, zero telemetry, zero paywalls.
+Every app built under **App Kill Line** is released under the **MIT License** — free forever, local-first, zero telemetry, zero paywalls.
 
 *Disclaimer: All third-party product names and trademarks mentioned in this repository are the property of their respective owners and are used solely for comparative identification (nominative fair use). All projects built under this initiative are 100% independent, clean-room open-source implementations.*

@@ -2,7 +2,7 @@
 
 # ⚔️ App 斩杀线计划 (`app-kill-line`)
 
-**当 AI 只花几美金就能开发并维护一个免费开源版时，高价付费工具软件就进入了「斩杀线」。**
+**付费软件已死。当 AI 只花几美金就能开发并 24 小时自动维护一个开源版时，高价软件就进入了「斩杀线」。**
 *你来提名「又贵又难用」的付费软件，我们的 AI 团队独立打造免费的 MIT 开源平替，并全天候自动巡检维护。*
 
 [English](./README.md) | 简体中文
@@ -16,45 +16,31 @@
 
 ---
 
-## ⚡ 什么是「App 斩杀线」？
+## ⚡ 为什么说「付费软件已死」？
 
-在游戏里，**斩杀线（Kill Line）** 是指当 Boss 血量跌破某个阈值时，会被一刀直接带走。
+过去十年，无数桌面与手机工具 App 明明只做了一点极其基础的本地功能，却敢收 **$70 买断费、$9.99/月自动续费订阅、塞满开屏广告、甚至强行逼你登录云账号上传隐私文件**。它们以前能躺着赚钱，并不是因为有什么技术壁垒，纯粹是因为没人愿意花几个月的人力去开发并长期维护一个免费版。
 
-过去十年，无数桌面与手机工具 App 明明只做了一点极其基础的本地功能，却敢收你 **$70 买断费、$9.99/月自动续费订阅、塞满开屏广告、甚至强行逼你登录云账号上传隐私文件**。它们以前能躺着赚钱，并不是因为有什么技术壁垒，纯粹是因为没人愿意花几个月的人力去开发并长期维护一个免费版。
+**但现在，当 AI 只花几美金就能开发并 24 小时自动维护一个开源替代品时，这些付费软件就集体掉进了「斩杀线」：**
 
-**但现在，当 AI 只花几美金就能开发并 24 小时自动维护一个开源替代品时，这些高价工具软件就集体掉进了「斩杀线」。**
-
-GitHub 上有很多 `open-alternatives` 仓库，但它们只是**整理别人链接的「书签导航」**；而本仓库是一家**真刀真枪下场造软件的「开源处决工厂」**：
-
-1. **你点名，大家投票**：受够了某款又贵又难用的商业软件？直接[提交提名 Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose)，或者去[投票排行榜](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)给别人提名的 Issue 一楼点 **`👍 (+1)`**。
+1. **你点名，大家投票**：受够了某款又贵又难用的付费软件？直接[提交提名 Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose)，或者去[投票排行榜](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)给别人提名的 Issue 一楼点 **`👍 (+1)`**。
 2. **AI 公司全自动交付**：基于 **[Munk AI](https://munk.sh)**（*Open Company 开放公司运行时——一家可以 Fork、由 Agent 运营的公司*），我们的 AI 团队独立开发出干净、零广告、纯本地优先、MIT 协议的免费开源平替。
-3. **绝不烂尾（Agent 每 15 分钟巡检 Issue）**：我们不做「发完帖就跑路」的周末玩具。每个开源出去的仓库都挂着长效运维闭环——**专属 Agent 每 15 分钟巡检一次 GitHub Issues**，自动复现修 Bug、补自动化门禁、评估新功能并打包发版。
+3. **绝不烂尾（Agent 每 15 分钟巡检 Issue）**：每个开源出去的仓库都挂着长效运维闭环——**专属 Agent 每 15 分钟巡检一次 GitHub Issues**，自动复现修 Bug、补自动化门禁、评估新功能并打包发版。
 
-> **🚧 关于 [Munk AI (`munk.sh`)](https://munk.sh) 的状态说明**：
-> 驱动这座软件工厂的 **Munk AI** 运行时目前正处于**内测与架构升级阶段，尚未正式公开上线**（当前 `munk.sh` 官网展示的仍是几个月前的早期版本）。正式版上线后将原生支持 **macOS、Windows 与 Linux**。
-
----
-
-## 📺 处决现场直播间
-
-我们把这家 AI 公司的工作桌面、终端与研发工作台挂在直播间，欢迎随时进来围观 Agent 读 Issue、写代码、跑性能门禁和打包发版：
-
-- 🔴 **YouTube 直播间**：**[youtube.com/@chriszhu5012/live](https://www.youtube.com/@chriszhu5012/live)**
-- 📺 **Bilibili 直播间**：**[live.bilibili.com/31041209](https://live.bilibili.com/31041209)**
+> **🚧 关于 [Munk AI (`munk.sh`)](https://munk.sh) 的状态说明**：驱动这座软件工厂的 **Munk AI** 运行时目前正处于**内测与架构升级阶段，尚未正式公开上线**（当前 `munk.sh` 官网展示的仍是早期预览版）。正式版上线后将原生支持 **macOS、Windows 与 Linux**。
 
 ---
 
 ## 🏆 已斩杀名录（已交付并持续维护）
 
-| 编号 | 替代品类与对标对象 | 原版收费模式 | 我们的开源平替仓库 | 支持平台 | 当前状态与自动化运维 |
+| 编号 | 替代品类与对标对象 | 原版收费 vs AI 成本 | 我们的开源平替仓库 | 支持平台 | 当前状态与实测战绩 |
 | :- | :--- | :--- | :--- | :--- | :--- |
-| **001** | **专业文件 / 目录对比与三向合并工具**<br>*(对标 Beyond Compare Pro)* | **$70/人**（约 ¥500）<br>*试用期锁死 / 算号器失效* | **[OpenCompare](https://github.com/chaxiu/OpenCompare)** | macOS · Windows · Linux · Web | ✅ **v0.2.5 已发布** · [下载安装包](https://github.com/chaxiu/OpenCompare/releases)<br>🤖 *Agent 每 15 分钟巡检 Issue 持续维护中* |
+| **001** | **专业文件 / 目录对比与三向合并工具**<br>*(对标 Beyond Compare Pro)* | 原版 **$70/人**（约 ¥500）<br>⚡ **AI 研发总成本：~$2** | **[OpenCompare](https://github.com/chaxiu/OpenCompare)** | macOS · Windows · Linux · Web | ✅ **v0.2.5 已发布** · [下载安装包](https://github.com/chaxiu/OpenCompare/releases)<br>🚀 *47 GB / 75.2 万文件大目录 9.3 秒比完*<br>🤖 *Agent 每 15 分钟巡检 Issue 持续维护中* |
 
 ---
 
 ## 🎯 待斩杀悬赏榜（投票决定 002 号猎物！）
 
-我们优先猎杀**纯本地优先（Local-First）的桌面与手机工具 App**——那些明明靠本机算力就能搞定，却非要按年收高价订阅费、拿水印卡导出、或者塞满开屏广告的收费工具。
+我们优先猎杀**纯本地优先（Local-First）的桌面与手机工具 App**——那些明明靠本机算力就能搞定，却非要按年收高价订阅费、拿水印卡导出、或者塞满开屏广告的收费软件。
 
 👉 **[点击进入实时斩杀榜（按 Issue 一楼 👍 票数自动排序）](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)**
 
@@ -69,6 +55,15 @@ GitHub 上有很多 `open-alternatives` 仓库，但它们只是**整理别人�
 | 🟡 **第二梯队**<br>*(逼近斩杀线)* | **现代原生 HTTP/HTTPS 抓包与手机扫码调试器** | **$50–$99+** / 授权 | 本地抓包、Map Local 与手机扫码装证书：传统工具停留在老旧 Java 界面，现代竞品高阶功能锁死高价付费墙 | 🛠️ **7–10 天** |
 | 🟡 **第二梯队**<br>*(逼近斩杀线)* | **本地优先个人记账与零基预算管理** | **$59.99–$109/年**（纯订阅） | 个人记账与信封预算软件全部强转高价年费订阅（十年涨价 118%）；头号开源财务库（54.2k★）已归档停更 | 🛠️ **7–10 天** |
 | 🔴 **第三梯队**<br>*(深水区 Boss)* | **系统级分流网关 / 双栏全能文件管理器 / RAW 后期暗房** | **$48–$150+/年** | 涉及系统级网络内核扩展、多端零知识加密或数十年长尾特性积累，需拆分为多阶段战役攻克 | 🏔️ **多周战役** |
+
+---
+
+## 📺 处决现场直播间
+
+我们把这家 AI 公司的工作桌面、终端与研发工作台挂在直播间，欢迎随时进来围观 Agent 读 Issue、写代码、跑性能门禁和打包发版：
+
+- 🔴 **YouTube 直播间**：**[youtube.com/@chriszhu5012/live](https://www.youtube.com/@chriszhu5012/live)**
+- 📺 **Bilibili 直播间**：**[live.bilibili.com/31041209](https://live.bilibili.com/31041209)**
 
 ---
 
@@ -92,4 +87,3 @@ GitHub 上有很多 `open-alternatives` 仓库，但它们只是**整理别人�
 **App 斩杀线计划**产出的所有软件均采用 **MIT License** 开源——永久免费、纯本地优先、零遥测暗桩、零付费墙。
 
 *免责声明：本仓库提及的所有第三方软件名称与商标均归其各自所有者所有，仅用于同类功能对比指代（Nominative Fair Use）。本计划产出的所有开源项目均为 100% 独立从零编写的净室实现（Clean-Room Implementation）。*
-

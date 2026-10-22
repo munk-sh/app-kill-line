@@ -2,7 +2,7 @@
 
 # ⚔️ App Kill Line
 
-**When AI can build and maintain a free open-source alternative for a few dollars, overpriced utility apps enter the Kill Line.**
+**Paid software is dead. When AI can build and maintain a free open-source alternative for a few dollars, overpriced apps enter the Kill Line.**
 *You nominate the overpriced app. Our AI agents build, sign, and autonomously maintain the free MIT replacement.*
 
 English | [简体中文](./README.zh-CN.md)
@@ -16,39 +16,25 @@ English | [简体中文](./README.zh-CN.md)
 
 ---
 
-## ⚡ The Manifesto
-
-In gaming, the **Kill Line** is the HP threshold where a boss gets one-shot executed.
+## ⚡ Why Paid Software Is Dead
 
 For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. They survived for one reason: nobody wanted to burn months of human engineering time building and maintaining a free replacement.
 
-**Now, when an AI software company can build, sign, and 24/7 autonomously maintain a free open-source version for just a few dollars, all of these overpriced utility apps have officially dropped into the Kill Line.**
+**Now, when an AI software company can build, sign, and 24/7 autonomously maintain a free open-source version for just a few dollars, all of these overpriced apps have officially dropped into the Kill Line:**
 
-Most "open-source alternative" repos on GitHub are passive bookmark lists. **This repo is an active execution factory:**
-
-1. **You Point at the Target**: Sick of an overpriced, bloated utility app? [Drop a Nomination Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose) or hit **`👍 (+1)`** on the [Leaderboard](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc).
+1. **You Point at the Target**: Sick of an overpriced, bloated paid app? [Drop a Nomination Issue](https://github.com/munk-sh/app-kill-line/issues/new/choose) or hit **`👍 (+1)`** on the [Leaderboard](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc).
 2. **Our AI Company Ships It**: Powered by **[Munk AI](https://munk.sh)** (*A company you can fork, run by agents*), our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.
-3. **Zero Abandonware (15-Min Issue Patrol)**: We don't drop a weekend demo and vanish. Every shipped repo is wired into a **15-minute autonomous GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
+3. **Zero Abandonware (15-Min Issue Patrol)**: Every shipped repo is wired into a **15-minute autonomous GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
 
-> **🚧 Note on [Munk AI (`munk.sh`)](https://munk.sh)**:
-> The Munk AI runtime powering this factory is currently in **private beta** (undergoing a major architecture upgrade; `munk.sh` still shows an older preview). The upcoming public release will run natively on **macOS, Windows, and Linux**.
-
----
-
-## 📺 Watch the Factory Live
-
-We stream our AI company's desktop, terminal, and workbench live so anyone can watch the agents triage GitHub issues, write code, run performance benchmarks, and ship releases in real time:
-
-- 🔴 **YouTube**: **[youtube.com/@chriszhu5012/live](https://www.youtube.com/@chriszhu5012/live)**
-- 📺 **Bilibili**: **[live.bilibili.com/31041209](https://live.bilibili.com/31041209)**
+> **🚧 Note on [Munk AI (`munk.sh`)](https://munk.sh)**: The Munk AI runtime powering this factory is currently in **private beta** (undergoing a major architecture upgrade; `munk.sh` still shows an older preview). The upcoming public release will run natively on **macOS, Windows, and Linux**.
 
 ---
 
 ## 🏆 Executed Targets (Shipped & Maintained)
 
-| # | Replaced Category & Target | Typical Paywall | Our Open-Source Replacement | Platforms | Status & Autonomous Ops |
+| # | Replaced Category & Target | Paywall vs. AI Cost | Our Open-Source Replacement | Platforms | Status & Benchmark |
 | :- | :--- | :--- | :--- | :--- | :--- |
-| **001** | **Pro Folder / File / 3-Way Merge Tool**<br>*(e.g., Beyond Compare Pro)* | **$70** / user license & trial lockouts | **[OpenCompare](https://github.com/chaxiu/OpenCompare)** | macOS · Windows · Linux · Web | ✅ **v0.2.5 Shipped** · [Get Installer](https://github.com/chaxiu/OpenCompare/releases)<br>🤖 *15-min Agent Issue Patrol Active* |
+| **001** | **Pro Folder / File / 3-Way Merge Tool**<br>*(e.g., Beyond Compare Pro)* | Original: **$70/user** (~¥500)<br>⚡ **AI Build Cost: ~$2** | **[OpenCompare](https://github.com/chaxiu/OpenCompare)** | macOS · Windows · Linux · Web | ✅ **v0.2.5 Shipped** · [Get Installer](https://github.com/chaxiu/OpenCompare/releases)<br>🚀 *47 GB / 752k files compared in 9.3s*<br>🤖 *15-min Agent Issue Patrol Active* |
 
 ---
 
@@ -72,6 +58,15 @@ We hunt **local-first desktop & mobile utilities** first — apps that charge st
 
 ---
 
+## 📺 Watch the Factory Live
+
+We stream our AI company's desktop, terminal, and workbench live so anyone can watch the agents triage GitHub issues, write code, run performance benchmarks, and ship releases in real time:
+
+- 🔴 **YouTube**: **[youtube.com/@chriszhu5012/live](https://www.youtube.com/@chriszhu5012/live)**
+- 📺 **Bilibili**: **[live.bilibili.com/31041209](https://live.bilibili.com/31041209)**
+
+---
+
 ## 🗳️ How to Vote or Nominate
 
 ### 1. Upvote a Target on the Leaderboard
@@ -92,4 +87,3 @@ We hunt **local-first desktop & mobile utilities** first — apps that charge st
 Every app built under the **App Kill Line** initiative is released under the **MIT License**. Free forever, local-first, zero telemetry, zero paywalls.
 
 *Disclaimer: All third-party product names and trademarks mentioned in this repository are the property of their respective owners and are used solely for comparative identification (nominative fair use). All projects built under this initiative are 100% independent, clean-room open-source implementations.*
-

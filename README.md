@@ -9,8 +9,8 @@ English | [简体中文](./README.zh-CN.md)
 
 [![Vote on the Kill List](https://img.shields.io/badge/👍_Vote_on_Kill_List-Leaderboard-2ea44f?style=for-the-badge)](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)
 [![Nominate a Paid App](https://img.shields.io/badge/🎯_Nominate_a_Target-New_Issue-0969da?style=for-the-badge)](https://github.com/munk-sh/app-kill-line/issues/new/choose)
-[![YouTube 24/7 Live](https://img.shields.io/badge/YouTube_24%2F7_Live-Watch_Stream-ff0000?style=for-the-badge&logo=youtube)](https://youtube.com/live/rYV6uzHI5ks)
-[![Bilibili Daytime Live](https://img.shields.io/badge/Bilibili_Daytime_Live-Room_31041209-00a1d6?style=for-the-badge&logo=bilibili)](https://live.bilibili.com/31041209)
+[![YouTube Live](https://img.shields.io/badge/YouTube_Live-@chriszhu5012-ff0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@chriszhu5012/live)
+[![Bilibili Live](https://img.shields.io/badge/Bilibili_Live-Room_31041209-00a1d6?style=for-the-badge&logo=bilibili)](https://live.bilibili.com/31041209)
 
 </div>
 
@@ -35,12 +35,12 @@ Most "open-source alternative" repos on GitHub are passive bookmark lists. **Thi
 
 ---
 
-## 📺 Watch the Factory Live (24/7)
+## 📺 Watch the Factory Live
 
-We have a dedicated machine streaming our AI company's desktop, terminal, and workbench 24/7. Tune in anytime to watch the agents triage GitHub issues, write code, run performance benchmarks, and ship releases in real time:
+We stream our AI company's desktop, terminal, and workbench live so anyone can watch the agents triage GitHub issues, write code, run performance benchmarks, and ship releases in real time:
 
-- 🔴 **YouTube (24/7 Non-Stop Stream)**: **[Watch / Set Reminder on YouTube](https://youtube.com/live/rYV6uzHI5ks)**
-- 📺 **Bilibili (Daytime Stream, UTC+8)**: **[Live Room #31041209](https://live.bilibili.com/31041209)** · **[🔔 Reserve Stream (预约开播提醒)](https://www.bilibili.com/opus/1261897812948287504)**
+- 🔴 **YouTube**: **[youtube.com/@chriszhu5012/live](https://www.youtube.com/@chriszhu5012/live)**
+- 📺 **Bilibili**: **[live.bilibili.com/31041209](https://live.bilibili.com/31041209)**
 
 ---
 

@@ -10,7 +10,7 @@ English | [简体中文](./README.zh-CN.md)
 [![Vote on the Kill List](https://img.shields.io/badge/👍_Vote_on_Kill_List-Leaderboard-2ea44f?style=for-the-badge)](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)
 [![Nominate a Paid App](https://img.shields.io/badge/🎯_Nominate_a_Target-New_Issue-0969da?style=for-the-badge)](https://github.com/munk-sh/app-kill-line/issues/new/choose)
 [![YouTube 24/7 Live](https://img.shields.io/badge/YouTube_24%2F7_Live-Coming_Soon-ff0000?style=for-the-badge&logo=youtube)](https://github.com/munk-sh/app-kill-line#-watch-the-factory-live-247)
-[![Bilibili Daytime Live](https://img.shields.io/badge/Bilibili_Daytime_Live-Coming_Soon-00a1d6?style=for-the-badge&logo=bilibili)](https://github.com/munk-sh/app-kill-line#-watch-the-factory-live-247)
+[![Bilibili Daytime Live](https://img.shields.io/badge/Bilibili_Daytime_Live-Room_31041209-00a1d6?style=for-the-badge&logo=bilibili)](https://live.bilibili.com/31041209)
 
 </div>
 
@@ -41,8 +41,8 @@ Most "open-source alternative" repos on GitHub are passive bookmark lists. **Thi
 
 We have a dedicated machine streaming our AI company's desktop, terminal, and workbench 24/7. Tune in anytime to watch the agents triage GitHub issues, write code, run performance benchmarks, and ship releases in real time:
 
-- 🔴 **YouTube (24/7 Non-Stop Stream)**: *Coming Soon (待开播 — Link will be updated here)*
-- 📺 **Bilibili (Daytime Stream, UTC+8)**: *Coming Soon (待开播 — Link will be updated here)*
+- 🔴 **YouTube (24/7 Non-Stop Stream)**: *Coming Soon (Link will be updated here)*
+- 📺 **Bilibili (Daytime Stream, UTC+8)**: **[Live Room #31041209](https://live.bilibili.com/31041209)** · **[🔔 Reserve Stream (预约开播提醒)](https://www.bilibili.com/opus/1261897812948287504)** *(Starts tomorrow at 12:00 PM UTC+8)*
 
 ---
 

@@ -2,7 +2,7 @@
 
 # ⚔️ App Kill Line
 
-**When AI can rebuild and maintain a free open-source alternative for a few dollars, rent-seeking utility apps enter the Kill Line.**
+**When AI can build and maintain a free open-source alternative for a few dollars, overpriced utility apps enter the Kill Line.**
 *You nominate the overpriced app. Our AI agents build, sign, and autonomously maintain the free MIT replacement.*
 
 English | [简体中文](./README.zh-CN.md)
@@ -20,9 +20,9 @@ English | [简体中文](./README.zh-CN.md)
 
 In gaming, the **Kill Line** is the HP threshold where a boss gets one-shot executed.
 
-For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. They survived for one reason: nobody wanted to burn months of human engineering time rebuilding and maintaining a free replacement.
+For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. They survived for one reason: nobody wanted to burn months of human engineering time building and maintaining a free replacement.
 
-**Now, when an AI software company can rebuild, sign, and 24/7 autonomously maintain a free open-source version from scratch for just a few dollars, all of these rent-seeking apps have officially dropped into the Kill Line.**
+**Now, when an AI software company can build, sign, and 24/7 autonomously maintain a free open-source version for just a few dollars, all of these overpriced utility apps have officially dropped into the Kill Line.**
 
 Most "open-source alternative" repos on GitHub are passive bookmark lists. **This repo is an active execution factory:**
 

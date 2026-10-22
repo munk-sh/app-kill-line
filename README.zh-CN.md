@@ -9,7 +9,7 @@
 
 [![按 👍 投票排行榜](https://img.shields.io/badge/👍_斩杀榜投票-查看实时排名-2ea44f?style=for-the-badge)](https://github.com/munk-sh/app-kill-line/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)
 [![提名付费 App](https://img.shields.io/badge/🎯_提名付费_App-提交_Issue-0969da?style=for-the-badge)](https://github.com/munk-sh/app-kill-line/issues/new/choose)
-[![YouTube 24小时直播](https://img.shields.io/badge/YouTube_24%2F7_全天直播-待开播-ff0000?style=for-the-badge&logo=youtube)](https://github.com/munk-sh/app-kill-line#-247-处决现场直播)
+[![YouTube 24小时直播](https://img.shields.io/badge/YouTube_24%2F7_全天直播-点击进入-ff0000?style=for-the-badge&logo=youtube)](https://youtube.com/live/rYV6uzHI5ks)
 [![B站白天直播](https://img.shields.io/badge/Bilibili_白天直播-房间_31041209-00a1d6?style=for-the-badge&logo=bilibili)](https://live.bilibili.com/31041209)
 
 </div>
@@ -41,7 +41,7 @@ GitHub 上有很多 `open-alternatives` 仓库，但它们只是**整理别人�
 
 我们专门部署了一台 24 小时不关机的物理电脑，全程实况直播这家 AI 公司的工作桌面、终端与研发工作台。你可以随时进来围观 Agent 读 Issue、写代码、跑性能门禁和打包发版：
 
-- 🔴 **YouTube（7×24 小时全天候直播）**：*待开播（直播间就绪后在此更新链接）*
+- 🔴 **YouTube（7×24 小时全天候直播）**：**[点击进入 / 预约开播提醒](https://youtube.com/live/rYV6uzHI5ks)**（明天中午 12:00 正式开播）
 - 📺 **Bilibili B 站（每日白天时段直播）**：**[进入直播间 (31041209)](https://live.bilibili.com/31041209)** · **[🔔 点击预约开播提醒](https://www.bilibili.com/opus/1261897812948287504)**（明天中午 12:00 正式开播）
 
 ---

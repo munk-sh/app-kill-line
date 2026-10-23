@@ -1,3 +1,13 @@
+// 001 status-cell contract. Diff-based assertions replay an explicit commit range so the
+// gate works on a clean tree, a dirty tree, a merge commit and any historical pair.
+//
+//   default     : node --test .munk/checks/readme-001-cell.test.mjs
+//                 head = HEAD; base = HEAD while the worktree is dirty, HEAD^ when clean;
+//                 a base without a parent falls back to the empty tree.
+//   empty range : MUNK_DIFF_BASE=$(git rev-parse HEAD) MUNK_DIFF_HEAD=$(git rev-parse HEAD) \
+//                 node --test .munk/checks/readme-001-cell.test.mjs
+//   history     : MUNK_DIFF_BASE=1b397be MUNK_DIFF_HEAD=0b99e07 \
+//                 node --test .munk/checks/readme-001-cell.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
@@ -10,12 +20,65 @@ const EN = 'README.md';
 const ZH = 'README.zh-CN.md';
 const EVIDENCE_URL = 'https://github.com/chaxiu/OpenCompare/blob/main/docs/perf/large-directory-memory.md';
 const RELEASES_URL = 'https://github.com/chaxiu/OpenCompare/releases';
+const EMPTY_TREE = '4b825dc642cb6eb9a060e54bf8d69288fbee4904';
+const ALLOWLIST = [EN, ZH, '.munk/checks/readme-001-cell.test.mjs', '.munk/baseline/domains/readme/product.md'];
+const IGNORED_PREFIXES = ['.munk/changes/', '.munk/runs/'];
+const RERUN_HINT = [
+  'default     : node --test .munk/checks/readme-001-cell.test.mjs',
+  'empty range : MUNK_DIFF_BASE=$(git rev-parse HEAD) MUNK_DIFF_HEAD=$(git rev-parse HEAD) node --test .munk/checks/readme-001-cell.test.mjs',
+  'history     : MUNK_DIFF_BASE=1b397be MUNK_DIFF_HEAD=0b99e07 node --test .munk/checks/readme-001-cell.test.mjs',
+].join('\n');
+
+const git = (args) => execFileSync('git', args, { cwd: root, encoding: 'utf8' });
+const tryGit = (args) => {
+  try {
+    return git(args);
+  } catch {
+    return null;
+  }
+};
+const env = (name) => (process.env[name] || '').trim();
+
+const headSha = git(['rev-parse', 'HEAD']).trim();
+const headInput = env('MUNK_DIFF_HEAD') || 'HEAD';
+const headResolved = tryGit(['rev-parse', '--verify', `${headInput}^{commit}`]);
+if (!headResolved) {
+  throw new Error(`MUNK_DIFF_HEAD=${headInput} does not resolve to a commit\n${RERUN_HINT}`);
+}
+const headCommit = headResolved.trim();
+const worktreeIsHead = headCommit === headSha;
+
+const dirty = git(['status', '--porcelain']).trim() !== '';
+const explicitBase = env('MUNK_DIFF_BASE');
+const baseInput = explicitBase || (dirty ? 'HEAD' : 'HEAD^');
+const baseResolved = tryGit(['rev-parse', '--verify', `${baseInput}^{commit}`]);
+let baseSha;
+if (baseResolved) {
+  baseSha = baseResolved.trim();
+} else if (baseInput === 'HEAD^') {
+  baseSha = EMPTY_TREE;
+} else {
+  throw new Error(`MUNK_DIFF_BASE=${baseInput} does not resolve to a commit\n${RERUN_HINT}`);
+}
+
+const diffNames = git(
+  worktreeIsHead
+    ? ['diff', '--name-only', baseSha]
+    : ['diff', '--name-only', `${baseSha}..${headCommit}`],
+)
+  .split('\n')
+  .map((line) => line.trim())
+  .filter(Boolean);
+const changedSet = new Set(diffNames);
+const changedFiles = diffNames.filter((file) => !IGNORED_PREFIXES.some((prefix) => file.startsWith(prefix))).sort();
+const RANGE = `${baseSha}..${headCommit}`;
 
 const read = (file) => readFileSync(path.join(root, file), 'utf8');
-const readAtHead = (file) =>
-  execFileSync('git', ['show', `HEAD:${file}`], { cwd: root, encoding: 'utf8' });
+// HEAD reads the live worktree (staged + unstaged); any other head is an immutable snapshot.
+const readAtHead = (file) => (worktreeIsHead ? read(file) : git(['show', `${headCommit}:${file}`]));
+const readAtBase = (file) => (baseSha === EMPTY_TREE ? null : tryGit(['show', `${baseSha}:${file}`]));
 
-const files = { [EN]: read(EN), [ZH]: read(ZH) };
+const files = { [EN]: readAtHead(EN), [ZH]: readAtHead(ZH) };
 
 function row(line) {
   assert.ok(line, '001 row must exist');
@@ -37,32 +100,32 @@ function statusCell(file) {
 const en = statusCell(EN);
 const zh = statusCell(ZH);
 
-test('ac-diff-only-two-readmes: only the two readmes and their content contracts differ from HEAD', () => {
-  const changed = execFileSync('git', ['diff', 'HEAD', '--name-only'], {
-    cwd: root,
-    encoding: 'utf8',
-  })
-    .split('\n')
-    .map((l) => l.trim())
-    .filter(Boolean)
-    // Host process artifacts are exempt; content files are asserted as an exact set.
-    .filter((file) => !file.startsWith('.munk/changes/') && !file.startsWith('.munk/runs/'))
-    .sort();
+test('ac-gate-diff-allowlist: content changes stay inside the 001 allowlist for the replayed range', (t) => {
+  t.diagnostic(`diff range ${RANGE} (worktree=${worktreeIsHead}, dirty=${dirty})`);
+  const outOfAllowlist = changedFiles.filter((file) => !ALLOWLIST.includes(file));
   assert.deepEqual(
-    changed,
-    [EN, ZH, '.munk/baseline/domains/readme/product.md', '.munk/checks/readme-001-cell.test.mjs'].sort(),
+    outOfAllowlist,
+    [],
+    `files outside the 001 allowlist for base ${baseSha} head ${headCommit}: ${outOfAllowlist.join(', ')}\n${RERUN_HINT}`,
   );
 });
 
-test('ac-single-changed-line-per-file: one replaced line, structure and other rows intact', () => {
+test('ac-single-changed-line-per-file: one replaced line against the base snapshot', (t) => {
   for (const file of [EN, ZH]) {
-    const before = readAtHead(file).split('\n');
+    if (!changedSet.has(file)) {
+      t.diagnostic(`${file} has no change in ${RANGE}; skipping line assertions`);
+      continue;
+    }
+    const beforeText = readAtBase(file);
+    if (beforeText === null) {
+      t.diagnostic(`${file} does not exist at base ${baseSha}; skipping line assertions`);
+      continue;
+    }
+    const before = beforeText.split('\n');
     const after = files[file].split('\n');
     assert.equal(after.length, before.length, `${file} line count must not change`);
 
-    const changedIdx = after
-      .map((line, i) => (line === before[i] ? -1 : i))
-      .filter((i) => i >= 0);
+    const changedIdx = after.map((line, i) => (line === before[i] ? -1 : i)).filter((i) => i >= 0);
     assert.deepEqual(changedIdx, [35], `${file} must change exactly the 001 row`);
 
     const headerBefore = before[33];
@@ -80,9 +143,18 @@ test('ac-single-changed-line-per-file: one replaced line, structure and other ro
   }
 });
 
-test('ac-other-content-untouched: every line except the 001 row is byte-identical', () => {
+test('ac-other-content-untouched: every line except the 001 row is byte-identical to base', (t) => {
   for (const file of [EN, ZH]) {
-    const before = readAtHead(file).split('\n');
+    if (!changedSet.has(file)) {
+      t.diagnostic(`${file} has no change in ${RANGE}; skipping the untouched-lines comparison`);
+      continue;
+    }
+    const beforeText = readAtBase(file);
+    if (beforeText === null) {
+      t.diagnostic(`${file} does not exist at base ${baseSha}; skipping the untouched-lines comparison`);
+      continue;
+    }
+    const before = beforeText.split('\n');
     const after = files[file].split('\n');
     before.forEach((line, i) => {
       if (i === 35) return;

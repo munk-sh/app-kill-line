@@ -24,10 +24,8 @@ For a decade, basic desktop and mobile utility apps have gotten away with **$70 
 **Now, an AI team can rebuild the 80% core features people actually use into a free open-source alternative — and maintain it 24/7 — for just a few dollars:**
 
 1. **You Nominate & Vote**: Hit **`👍 (+1)`** on the [Target Leaderboard](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc) or [submit a new Nomination Issue](https://github.com/munk-sh/kill-paid-apps/issues/new/choose).
-2. **AI Agents Build It**: Powered by **[Munk AI](https://munk.sh)**, our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.
+2. **AI Agents Build It**: Our autonomous agent team builds a fast, local-first, MIT-licensed open-source alternative from the ground up.
 3. **15-Min Autonomous Issue Patrol**: Every shipped repo is wired into a **15-minute GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
-
-> *Note: [Munk AI](https://munk.sh) is currently in private beta (macOS, Windows & Linux release coming soon).*
 
 ---
 

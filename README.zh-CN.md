@@ -24,10 +24,8 @@
 **但现在，AI 只花几美金就能把大家日常最常用的核心功能做成免费「开源平替」，并 24 小时自动维护：**
 
 1. **你点名，大家投票**：在 [Issues 排行榜](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)给最想替代的软件一楼点 **`👍`**，或直接[提名新目标](https://github.com/munk-sh/kill-paid-apps/issues/new/choose)。
-2. **AI 团队全自动开发**：基于 **[Munk AI](https://munk.sh)**，Agent 团队独立打造干净、零广告、纯本地优先的 MIT 免费开源版。
+2. **AI 团队全自动开发**：我们的 AI 团队独立打造干净、零广告、纯本地优先的 MIT 免费开源版。
 3. **每 15 分钟巡检维护**：每个开源仓库均接入长效运维闭环——**Agent 每 15 分钟自动巡检一次 GitHub Issues**，自动复现修 Bug、跑性能门禁并打包发版，绝不烂尾。
-
-> *注：[Munk AI](https://munk.sh) 目前处于内测阶段，正式版将支持 macOS、Windows 与 Linux。*
 
 ---
 

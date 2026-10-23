@@ -1,14 +1,14 @@
 <div align="center">
 
-# ⚔️ Kill Paid Apps
+# 🎯 Kill Paid Apps
 
-**Paid software is dead.**
+**Overpriced software is dead.**
 
-*You nominate the overpriced app. Our AI agents build and 24/7 maintain the free MIT replacement.*
+*You nominate the overpriced utility app. Our AI agents build and 24/7 maintain the free MIT open-source replacement.*
 
 English | [简体中文](./README.zh-CN.md)
 
-[![Vote on the Hitlist](https://img.shields.io/badge/👍_Vote_on_Target_List-Leaderboard-2ea44f?style=for-the-badge)](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)
+[![Vote on the Leaderboard](https://img.shields.io/badge/👍_Vote_on_Target_List-Leaderboard-2ea44f?style=for-the-badge)](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)
 [![Nominate a Paid App](https://img.shields.io/badge/🎯_Nominate_a_Target-New_Issue-0969da?style=for-the-badge)](https://github.com/munk-sh/kill-paid-apps/issues/new/choose)
 [![YouTube Live](https://img.shields.io/badge/YouTube_Live-@chriszhu5012-ff0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@chriszhu5012/live)
 [![Bilibili Live](https://img.shields.io/badge/Bilibili_Live-Room_31041209-00a1d6?style=for-the-badge&logo=bilibili)](https://live.bilibili.com/31041209)
@@ -17,11 +17,11 @@ English | [简体中文](./README.zh-CN.md)
 
 ---
 
-## ⚡ Why Paid Software Is Dead
+## ⚡ Why Overpriced Utility Software Is Dead
 
 For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. They survived for one reason: nobody wanted to burn months of human engineering time building and maintaining a free replacement.
 
-**Now, an AI team can build, sign, and 24/7 autonomously maintain a free open-source replacement for just a few dollars. We put our AI into hunting mode to replace overpriced utility apps one by one:**
+**Now, an AI team can build, sign, and 24/7 autonomously maintain a free open-source replacement for just a few dollars:**
 
 1. **You Nominate & Vote**: Hit **`👍 (+1)`** on the [Target Leaderboard](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc) or [submit a new Nomination Issue](https://github.com/munk-sh/kill-paid-apps/issues/new/choose).
 2. **AI Agents Build It**: Powered by **[Munk AI](https://munk.sh)**, our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.

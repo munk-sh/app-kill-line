@@ -1,15 +1,15 @@
 <div align="center">
 
-# ⚔️ 干掉付费软件
+# 🎯 高价软件开源平替计划
 
-**付费软件已死，AI 进入猎杀模式。**
+**高价软件已死，AI 开启「平替计划」。**
 
-*你提名又贵又难用的软件，我们的 AI 团队把它做成免费 MIT 开源版，并 24 小时自动维护。*
+*你提名太贵、不想续费的工具软件，我们的 AI 团队把它做成免费 MIT 开源版，并 24 小时自动维护。*
 
 [English](./README.md) | 简体中文
 
-[![按 👍 投票排行榜](https://img.shields.io/badge/👍_猎杀榜投票-查看实时排名-2ea44f?style=for-the-badge)](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)
-[![提名付费 App](https://img.shields.io/badge/🎯_提名付费_App-提交_Issue-0969da?style=for-the-badge)](https://github.com/munk-sh/kill-paid-apps/issues/new/choose)
+[![按 👍 投票排行榜](https://img.shields.io/badge/👍_开源平替榜-查看实时排名-2ea44f?style=for-the-badge)](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)
+[![提名付费 App](https://img.shields.io/badge/🎯_提名高价软件-提交_Issue-0969da?style=for-the-badge)](https://github.com/munk-sh/kill-paid-apps/issues/new/choose)
 [![YouTube 直播间](https://img.shields.io/badge/YouTube_直播间-@chriszhu5012-ff0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@chriszhu5012/live)
 [![B站直播间](https://img.shields.io/badge/Bilibili_直播间-房间_31041209-00a1d6?style=for-the-badge&logo=bilibili)](https://live.bilibili.com/31041209)
 
@@ -17,11 +17,11 @@
 
 ---
 
-## ⚡ 为什么说「付费软件已死」？
+## ⚡ 为什么说「高价工具软件已死」？
 
 过去十年，大量桌面与手机工具软件明明只做了一点基础的本地功能，却敢收 **$70 买断费、$9.99/月自动续费订阅、塞满广告或强制上传云端**。它们以前能躺着赚钱，并不是因为有什么技术壁垒，纯粹是因为没人愿意花几个月人力去开发并长期维护一个免费版。
 
-**但现在，当 AI 只花几美金就能开发并 24 小时自动维护一个开源替代品时，我直接让 AI 进入了「猎杀模式」：**
+**但现在，AI 只花几美金就能开发并 24 小时自动维护一个开源替代品。于是我们正式开启了「开源平替计划」：**
 
 1. **你点名，大家投票**：在 [Issues 排行榜](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)给最想替代的软件一楼点 **`👍`**，或直接[提名新目标](https://github.com/munk-sh/kill-paid-apps/issues/new/choose)。
 2. **AI 团队全自动开发**：基于 **[Munk AI](https://munk.sh)**，Agent 团队独立打造干净、零广告、纯本地优先的 MIT 免费开源版。
@@ -39,7 +39,7 @@
 
 ---
 
-## 🎯 猎杀目标排行榜（点 👍 决定 002 号目标）
+## 🎯 开源平替投票榜（点 👍 决定 002 号目标）
 
 点击下方任意目标进入 Issue，在**一楼正文左下角点 `👍` (+1) 即可投票**（*评论区回复 "+1" 不计入 GitHub 排序*）；没有你想换掉的软件？直接 **[👉 提交新提名 Issue](https://github.com/munk-sh/kill-paid-apps/issues/new/choose)**。
 

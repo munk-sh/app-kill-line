@@ -21,7 +21,7 @@ English | [简体中文](./README.zh-CN.md)
 
 For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. They survived for one reason: nobody wanted to burn months of human engineering time building and maintaining a free replacement.
 
-**Now, an AI team can build, sign, and 24/7 autonomously maintain a free open-source replacement for just a few dollars:**
+**Now, an AI team can rebuild the 80% core features people actually use into a free open-source alternative — and maintain it 24/7 — for just a few dollars:**
 
 1. **You Nominate & Vote**: Hit **`👍 (+1)`** on the [Target Leaderboard](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc) or [submit a new Nomination Issue](https://github.com/munk-sh/kill-paid-apps/issues/new/choose).
 2. **AI Agents Build It**: Powered by **[Munk AI](https://munk.sh)**, our AI agents build a fast, local-first, MIT-licensed open-source replacement from the ground up.

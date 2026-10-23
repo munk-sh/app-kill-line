@@ -21,7 +21,7 @@
 
 过去十年，大量桌面与手机工具软件明明只做了一点基础的本地功能，却敢收 **$70 买断费、$9.99/月自动续费订阅、塞满广告或强制上传云端**。它们以前能躺着赚钱，并不是因为有什么技术壁垒，纯粹是因为没人愿意花几个月人力去开发并长期维护一个免费版。
 
-**但现在，AI 只花几美金就能开发并 24 小时自动维护一个开源替代品。于是我们正式开启了「开源平替计划」：**
+**但现在，AI 只花几美金就能把大家日常最常用的核心功能做成免费「开源平替」，并 24 小时自动维护：**
 
 1. **你点名，大家投票**：在 [Issues 排行榜](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc)给最想替代的软件一楼点 **`👍`**，或直接[提名新目标](https://github.com/munk-sh/kill-paid-apps/issues/new/choose)。
 2. **AI 团队全自动开发**：基于 **[Munk AI](https://munk.sh)**，Agent 团队独立打造干净、零广告、纯本地优先的 MIT 免费开源版。

@@ -25,7 +25,7 @@ For a decade, basic desktop and mobile utility apps have gotten away with **$70 
 
 1. **You Nominate & Vote**: Hit **`👍 (+1)`** on the [Target Leaderboard](https://github.com/munk-sh/kill-paid-apps/issues?q=is%3Aissue+is%3Aopen+label%3Anomination+sort%3Areactions-%2B1-desc) or [submit a new Nomination Issue](https://github.com/munk-sh/kill-paid-apps/issues/new/choose).
 2. **AI Agents Build It**: Our autonomous agent team builds a fast, local-first, MIT-licensed open-source alternative from the ground up.
-3. **15-Min Autonomous Issue Patrol**: Every shipped repo is wired into a **15-minute GitHub Issue patrol** — agents reproduce bugs, write regression gates, evaluate feature requests, and cut signed releases around the clock.
+3. **15-Min Autonomous Issue Patrol**: Every shipped repo is wired into a **15-minute GitHub Issue patrol** — agents reproduce bugs, write regression gates, and triage feature requests.
 
 ---
 

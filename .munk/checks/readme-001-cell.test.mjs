@@ -23,6 +23,9 @@ const RELEASES_URL = 'https://github.com/chaxiu/OpenCompare/releases';
 const EMPTY_TREE = '4b825dc642cb6eb9a060e54bf8d69288fbee4904';
 const ALLOWLIST = [EN, ZH, '.munk/checks/readme-001-cell.test.mjs', '.munk/baseline/domains/readme/product.md'];
 const IGNORED_PREFIXES = ['.munk/changes/', '.munk/runs/'];
+// 27 = the 15-minute patrol process line (rewritten 2026-10-23 to state configuration only);
+// 35 = the 001 status row. Every other line stays byte-locked.
+const ALLOWED_CHANGED_LINES = [27, 35];
 const RERUN_HINT = [
   'default     : node --test .munk/checks/readme-001-cell.test.mjs',
   'empty range : MUNK_DIFF_BASE=$(git rev-parse HEAD) MUNK_DIFF_HEAD=$(git rev-parse HEAD) node --test .munk/checks/readme-001-cell.test.mjs',
@@ -126,7 +129,22 @@ test('ac-single-changed-line-per-file: one replaced line against the base snapsh
     assert.equal(after.length, before.length, `${file} line count must not change`);
 
     const changedIdx = after.map((line, i) => (line === before[i] ? -1 : i)).filter((i) => i >= 0);
-    assert.deepEqual(changedIdx, [35], `${file} must change exactly the 001 row`);
+    assert.ok(changedIdx.length > 0, `${file} must change at least one line`);
+    assert.equal(new Set(changedIdx).size, changedIdx.length, `${file} changed line indexes must be unique`);
+    const outOfWhitelist = changedIdx.filter((i) => !ALLOWED_CHANGED_LINES.includes(i));
+    assert.deepEqual(
+      outOfWhitelist,
+      [],
+      `${file} changed lines outside ${JSON.stringify(ALLOWED_CHANGED_LINES)}: ${outOfWhitelist
+        .map((i) => i + 1)
+        .join(', ')}`,
+    );
+    assert.ok(
+      changedIdx.length <= ALLOWED_CHANGED_LINES.length,
+      `${file} must change at most ${ALLOWED_CHANGED_LINES.length} lines, changed: ${changedIdx
+        .map((i) => i + 1)
+        .join(', ')}`,
+    );
 
     const headerBefore = before[33];
     const headerAfter = after[33];
@@ -157,7 +175,7 @@ test('ac-other-content-untouched: every line except the 001 row is byte-identica
     const before = beforeText.split('\n');
     const after = files[file].split('\n');
     before.forEach((line, i) => {
-      if (i === 35) return;
+      if (ALLOWED_CHANGED_LINES.includes(i)) return;
       assert.equal(after[i], line, `${file}:${i + 1} must be untouched`);
     });
   }

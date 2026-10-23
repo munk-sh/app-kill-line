@@ -2,9 +2,9 @@
 
 # 🎯 Kill Paid Apps
 
-**Overpriced software is dead.**
+**Overpriced apps are dead.**
 
-*You nominate the overpriced utility app. Our AI agents build and 24/7 maintain the free MIT open-source replacement.*
+*You nominate the overpriced app. Our AI agents build and 24/7 maintain the free MIT replacement.*
 
 English | [简体中文](./README.zh-CN.md)
 
@@ -17,7 +17,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ---
 
-## ⚡ Why Overpriced Utility Software Is Dead
+## ⚡ Why Overpriced Apps Are Dead
 
 For a decade, basic desktop and mobile utility apps have gotten away with **$70 licenses, $9.99/mo subscriptions, nagging VIP popups, and forced cloud accounts** for things that should just run locally on your machine. They survived for one reason: nobody wanted to burn months of human engineering time building and maintaining a free replacement.
 

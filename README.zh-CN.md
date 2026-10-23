@@ -33,7 +33,7 @@
 
 | 编号 | 替代品类与对标软件 | 原版价格 vs AI 成本 | 我们的免费开源版 | 支持平台 | 当前状态与实测表现 |
 | :- | :--- | :--- | :--- | :--- | :--- |
-| **001** | **文件 / 文件夹对比与三向合并工具**<br>*(对标 Beyond Compare Pro)* | 原版 **$70/人**（约 ¥500）<br>⚡ **AI 总成本：~$2** | **[OpenCompare](https://github.com/chaxiu/OpenCompare)** | macOS · Windows · Linux · Web | ✅ **v0.2.5 已发布** · [下载安装包](https://github.com/chaxiu/OpenCompare/releases)<br>🚀 *47 GB / 75.2 万文件大目录 9.3 秒比完*<br>🤖 *Agent 每 15 分钟巡检 Issue 维护中* |
+| **001** | **文件 / 文件夹对比与三向合并工具**<br>*(对标 Beyond Compare Pro)* | 原版 **$70/人**（约 ¥500）<br>⚡ **AI 总成本：~$2** | **[OpenCompare](https://github.com/chaxiu/OpenCompare)** | macOS · Windows · Linux · Web | ✅ **v0.2.5 已发布** · [下载安装包](https://github.com/chaxiu/OpenCompare/releases)<br>📦 *源目录体积约 47 GB（两份本地仓库 du -sh 合计，含未参与哈希的文件）*<br>🚀 *752,479 文件 / 97,565 目录（不跟随符号链接）· 冷跑 22,717 ms（第 1 轮实际哈希 76,604 文件 / 11,105,870,346 B）· 热跑 9,361 / 9,547 ms · 三轮合计 41,630 ms*<br>📄 *[方法与证据](https://github.com/chaxiu/OpenCompare/blob/main/docs/perf/large-directory-memory.md)*<br>🤖 *已配置每 15 分钟巡检 · 最近一次运行失败（2026-10-22）* |
 
 ---
 
